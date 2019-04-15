@@ -1,4 +1,6 @@
-# konbini
+# mangarou vuejs
+
+## Live demo: https://soraname.com/modelo
 
 ## Project setup
 ```
