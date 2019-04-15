@@ -1,10 +1,7 @@
 <template>
-  <div id="menu" class="col m3 l2 openmenu teal accent-4">
+  <div id="menu" class="col m3 l2 teal accent-4">
     <div class="row">
         <div class="col s12">
-            <a id="menu-open" href="#!">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" style="fill:#ffffff"/></svg>
-            </a>
             <div id="app-title" class="logo">
               <a id="logo-konbini" href="/">
                 <svg width="53" height="59" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
@@ -26,7 +23,7 @@
                  </g>
                 </svg>
 
-                <h1>Konbini Manga</h1>
+                <h1>MANGAROU</h1>
               </a>
             </div>
             <div class="menu-content">
@@ -55,45 +52,119 @@
 <script>
 export default {
       data(){
-return {
-  menus: [{
-        Text: 'Soraname', 
-        Link: '/soraname', 
-        SVG: '/assets/media/logos/soraname.png', 
-        Target: 'soranamedd', 
-        Color: 'purple accent-3',
-        submenus: [
-          {
-            Item: 'Soraname', Elo: '/soraname',
-          },
-          {
-            Item: 'Youtube canal', Elo: 'https://www.facebook.com',
-          },
-          {
-            Item: 'Soraname', Elo: '/soraname',
-          },
-        ]
-      },
-      {
-        Text: 'Temero', 
-        Link: '/temero', 
-        SVG: '/assets/media/logos/temero.png', 
-        Target: 'temerodd', 
-        Color: 'blue',
-        submenus: [
-          {
-            Item: 'Temero', Elo: '/temero',
-          },
-          {
-            Item: 'Temero', Elo: '/temero',
-          },
-          {
-            Item: 'Temero', Elo: '/temero',
-          },
-        ]
-      }]
-   }
-}
+        return {
+          
+          menus: [{
+                Text: 'Soraname', 
+                Link: '/soraname', 
+                SVG: '/assets/media/logos/soraname.png', 
+                Target: 'soranamedd', 
+                Color: 'purple accent-3',
+                submenus: [
+                  {
+                    Item: 'Soraname', Elo: '/soraname',
+                  },
+                  {
+                    Item: 'Youtube canal', Elo: 'https://www.facebook.com',
+                  },
+                  {
+                    Item: 'Soraname', Elo: '/soraname',
+                  },
+                ]
+              },
+              {
+                Text: 'Temero', 
+                Link: '/temero', 
+                SVG: '/assets/media/logos/soraname.png', 
+                Target: 'temerodd', 
+                Color: 'blue',
+                submenus: [
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                ]
+              },
+              {
+                Text: 'autor01', 
+                Link: '/autor01', 
+                SVG: '/assets/media/logos/soraname.png', 
+                Target: 'autor01dd', 
+                Color: 'green',
+                submenus: [
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                ]
+              },
+              {
+                Text: 'autor02', 
+                Link: '/autor02', 
+                SVG: '/assets/media/logos/soraname.png', 
+                Target: 'autor02dd', 
+                Color: 'red',
+                submenus: [
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                ]
+              },
+              {
+                Text: 'autor03', 
+                Link: '/autor03', 
+                SVG: '/assets/media/logos/soraname.png', 
+                Target: 'autor03dd', 
+                Color: 'yellow',
+                submenus: [
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                ]
+              },
+              {
+                Text: 'autor04', 
+                Link: '/autor0', 
+                SVG: '/assets/media/logos/soraname.png', 
+                Target: 'autor04dd', 
+                Color: 'grey',
+                submenus: [
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                  {
+                    Item: 'Temero', Elo: '/temero',
+                  },
+                ]
+              }
+            ]
+        }
+      }
     };
 </script>
 

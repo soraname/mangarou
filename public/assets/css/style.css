@@ -166,6 +166,10 @@ h1{
   font-size: 3rem;
 }
 
+.content-box{
+  padding: 1rem;
+}
+
 #logo-konbini{
   color: #fafafa;
   font-weight: bold;
@@ -250,22 +254,39 @@ strong{
   top: 0;
   left: 0;
   z-index: 1000;
-  padding: 0;
+  padding: 2rem 0 0 0;
 }
 
 #menu-open{
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
   height: 24px;
   display: block;
   float: left;
   text-align: right;
+  z-index: 99999
 }
 
 #menu.openmenu{
-
-}
-#menu.closemenu{
   width: 70px;
+}
+#menu.openmenu h1{
+  font-size: 0.1px;
+}
+#menu.openmenu .menu-list > li > a{
+  font-size: 0.1px;
+  transition: all 0.1s linear;
+}
+
+#menu.openmenu .menu-list > li{
+  min-width: 72px;
+}
+
+
+#menu{
+  transition: all 0.1s linear;
 }
 
   #menu .logo{
@@ -438,13 +459,14 @@ strong{
   padding: 0;
   overflow-y: scroll;
   overflow-x: hidden;
+  transition: all 0.1s linear;
 }
 
 #content.expcontent{
-
+  width: calc(100% - 70px);
 }
 #content.impcontent{
-  width: calc(100% - 70px);
+  
 }
 
 #content > .row{
@@ -705,6 +727,58 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 
+.autor-header img{
+  float: left;
+}
+.autor-header h1{
+  height: 128px;
+  line-height: 128px;
+  padding: 0 0 0 1rem;
+  float: left;
+}
+.manga-header h2{
+  font-size: 1.275rem;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  width: 100%;
+  font-weight: bold;
+}
+.autor-header h3{
+  font-size: 1.275rem;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  width: 100%;
+  font-weight: bold;
+}
+
+.autor-link h4{
+  line-height: 1.4rem;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  width: 100%;
+  font-weight: bold;
+}
+
+.autor-link img{
+  float: left;
+  width: 6rem;
+  padding: 1rem;
+}
+
+.manga-link h2{
+  font-size: 1.275rem;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  width: 100%;
+  font-weight: bold;
+}
+.manga-link a{
+  color: #000000;
+}
 
 
 /*MATERIAL*/

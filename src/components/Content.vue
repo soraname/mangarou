@@ -1,16 +1,18 @@
 <template>
-  <div id="content" class="col m9 l10 white expcontent">
+  <div id="content" class="col m9 l10 white">
       <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Content',
-  props: {
-    msg: String
-  }
-}
+      data(){
+        return { 
+        }
+      },
+      methods: {
+      }
+    };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var sliderinstances = M.Carousel.init(sliderelems, {fullWidth: true, indicators: true});
 */
     var ddelems = document.querySelectorAll('.dropdown-trigger');
-    var ddinstances = M.Dropdown.init(ddelems, {constrainWidth: true, alignment: 'menu-content', outDuration: 50, hover: true});
+    var ddinstances = M.Dropdown.init(ddelems, {constrainWidth: false, alignment: 'menu-content', outDuration: 50, hover: true});
 
 
 
