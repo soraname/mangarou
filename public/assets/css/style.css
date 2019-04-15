@@ -1,0 +1,738 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Exo ExtraLight'), local('Exo-ExtraLight'), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIavF-2-BLj36w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Exo ExtraLight'), local('Exo-ExtraLight'), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIavF-2-RLj36w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Exo ExtraLight'), local('Exo-ExtraLight'), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIavF-29xLj.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo Regular'), local('Exo-Regular'), url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISfH6jyDM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo Regular'), local('Exo-Regular'), url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISfX6jyDM.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo Regular'), local('Exo-Regular'), url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISc36j.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* MATERIAL ICON FONT v*/
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/materialicon.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+/* MATERIAL ICON FONT ^*/
+
+/*PALETA CORES v*/
+
+.indigo-gradient{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e374c+0,0d4b7f+100 */
+background: #1e374c; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #1e374c 0%, #0d4b7f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #1e374c 0%,#0d4b7f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #1e374c 0%,#0d4b7f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e374c', endColorstr='#0d4b7f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.amber{
+  background-color: #ffaf00 !important;
+}
+
+.indigo{
+  background-color: #1e374c !important;
+}
+
+.grey{
+  background-color: #333333 !important;
+}
+
+.white{
+  background-color: #fafafa !important;
+}
+
+.yellow{
+  background-color: #ffbe00 !important;
+}
+
+
+.amber-text{
+  color: #ffaf00 !important;
+}
+
+.indigo-text{
+  color: #1e374c !important;
+}
+
+.grey-text{
+  color: #333333 !important;
+}
+
+.white-text{
+  color: #fafafa !important;
+}
+
+.yellow-text{
+  color: #ffbe00 !important;
+}
+.white.btn-large{
+  height: 96px;
+}
+.white.btn{
+  text-align: center !important;
+  border: 1px solid #fafafa !important;
+  box-shadow: none;
+  font-size: 1.275rem;
+}
+.white.btn:hover{
+
+}
+
+/*PALETA CORES ^*/
+
+html{
+  font-size: 16px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 200;
+  background: #475765;
+}
+
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header{
+  padding-bottom: 1rem;
+}
+
+h1{
+  font-size: 1rem;
+  margin: 0;
+}
+
+#content h1{
+  font-size: 3rem;
+}
+
+#logo-konbini{
+  color: #fafafa;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#logo-konbini h1{
+  font-weight: bold;
+}
+
+.cap h1, .cap h2{
+  color: #fafafa;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0;
+  padding: 1rem 0;
+  color: #333333;
+}
+h3{
+  font-size: 1.275rem;
+  margin: 0;
+  color: #000000;
+  width: 100%;
+  font-weight: bold;
+}
+h4{
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+h5{
+  font-size: 1rem;
+  border-bottom: 1px dotted #666666;
+}
+h6{
+
+}
+
+p{
+  font-weight: 400;
+}
+
+strong{
+  font-weight: bold;
+}
+
+#main{
+  margin: 0;
+}
+
+.loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+  padding: 25% 0 0 0;
+  background-color: rgba(30,55,76,0.75)
+}
+  .progress{
+    background-color: #ffaf00;
+    height: 12px;
+  }
+    .progress .indeterminate{
+      background-color: #ca5100;
+    }
+
+.loading-box{
+  z-index: 99999;
+  padding: 64px 32px 32px 32px;
+  background-color: rgba(30,55,76,0.75);
+  margin: 8px;
+  border-radius: 8px;
+}
+
+#menu{
+  background: #1e374c;
+  border-right: 2px solid #fafafa;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0;
+}
+
+#menu-open{
+  width: 100%;
+  height: 24px;
+  display: block;
+  float: left;
+  text-align: right;
+}
+
+#menu.openmenu{
+
+}
+#menu.closemenu{
+  width: 70px;
+}
+
+  #menu .logo{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+    #menu .logo svg{
+    }
+  #menu.closemenu .logo{
+  }
+  #menu.closemenu .logo svg{
+    width: 75%;
+  }
+
+  #menu li{
+    padding: 0.5rem;
+  }
+    #menu li a{
+      
+    }
+  #menu li:hover{
+    border-right: 4px solid #fafafa;
+  }
+
+  #menu .menu-content{
+    min-height: 253px;
+  }
+
+  #menu .collapsible{
+    border: none;
+    margin-bottom: 0;
+    box-shadow: none;
+  }
+  #menu .collapsible > li{
+    padding: 0 0 1rem 0;
+  }
+    #menu .collapsible .collapsible-header{
+      background-color: transparent;
+      border: none;
+      color: #fafafa;
+      padding: 1rem 0.5rem 0 1rem;
+      font-size: 1rem;
+      min-width: 148px;
+    }
+    #menu .collapsible .collapsible-body{
+      border: none;
+      padding: 0;
+      background: #142533;
+      min-width: 148px;
+    }
+      #menu .collapsible .collapsible-body li{
+        padding: 0.5rem 0 0.5rem 2rem;
+      }
+        #menu .collapsible .collapsible-body li:hover{
+          border-right: 4px solid #559CD8;
+        }
+        #menu .collapsible .collapsible-body li a{
+          color: #fafafa;
+        }
+
+    #menu.closemenu .collapsible .collapsible-header{
+      font-size: 0px;
+      padding: 0 0 0 0.5rem;
+    }
+    #menu.closemenu .collapsible .collapsible-body li{
+      font-size: 0px;
+      height: 40px;
+      padding-left: 1rem;
+    }
+  #menu .menu-content svg{
+    float: left;
+    fill: #fafafa;
+    margin: 0 1rem 0 0;
+    position: relative;
+  }
+
+
+
+
+  #menu .menu-list{
+    border: none;
+    margin: 0;
+    box-shadow: none;
+    padding: 0 0 0 8px;
+  }
+  #menu .menu-list > li{
+    padding: 0 0 1rem 0;
+  }
+    #menu .menu-list li{
+      background-color: transparent;
+      border: none;
+      color: #fafafa;
+      padding: 0 0.5rem 0 1rem;
+      font-size: 1rem;
+      min-width: 148px;
+      height: 64px;
+    }
+    #menu .menu-list .collapsible-body{
+      border: none;
+      padding: 0;
+      background: #142533;
+      min-width: 148px;
+    }
+      #menu .menu-list li{
+        height: 56px;
+        padding-left: 2px;
+      }
+        #menu .menu-list li:hover{
+        }
+        #menu .menu-list li a{
+          color: #fafafa;
+        }
+
+    #menu.closemenu .menu-list{
+      font-size: 0px;
+      padding: 0 0 0 8px;
+    }
+    #menu.closemenu .menu-list li{
+      font-size: 0px;
+      height: 64px;
+      padding-left: 2px;
+    }
+  #menu .menu-content svg{
+    float: left;
+    fill: #fafafa;
+    margin: 0 1rem 0 0;
+  }
+
+  #menu .menu-content svg.soranameicon:hover{
+    fill: #ff00ff;
+  }
+
+  .menu-item img{
+    float: left;
+    margin: 0 14px 0 0;
+  }
+  a.menu-item{
+    line-height: 48px;
+    height: 48px;
+    font-size: 1.275rem;
+    display: block;
+    border-radius: 8px;
+    background-color: rgba(0,150,136,1);
+  }
+  a.menu-item:hover{
+    background-color: rgba(0,105,92,1);
+  }
+  .menu-item img{
+    
+  }
+
+  .menu-ddc{
+    box-shadow: none;
+    min-width: 168px;
+    border: 4px solid #00bfa5;
+ 
+  }
+  #menu .menu-list .menu-ddc li{
+    height: 2.2rem;
+  }
+  #menu .menu-list .menu-ddc li a{
+    color: #333333;
+    font-weight: bold;
+  }
+
+#content{
+  height: 100vh;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#content.expcontent{
+
+}
+#content.impcontent{
+  width: calc(100% - 70px);
+}
+
+#content > .row{
+  margin: 0;
+}
+
+#content .home{
+  padding: 1rem;
+}
+
+#content .home .row.title-section{
+  margin: 0;
+}
+
+#content .home .row.title-section h2{
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+.box-wrap{
+  padding: 0 !important;
+}
+  .box-wrap .box-content{
+    min-height: 430px;
+    width: calc(100% - 16px);
+    display: block;
+    float: left;
+    border-radius: 4px;
+    background: #fafafa;
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+  }
+  .box-content.maps{
+    height: calc(100vh - 212px);
+  }
+    .box-wrap .box-content .painel-direct{
+      float: left;
+      display: block;
+      text-align: right;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 4px;
+    }
+  .box-wrap .box-form{
+    min-height: 1rem;
+    width: calc(100% - 16px);
+    display: block;
+    float: left;
+    border-radius: 4px;
+    background: #fafafa;
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+  }
+    
+.chart-box{
+  padding: 1rem;
+}
+
+.bi-label{
+  font-weight: bold;
+}
+.bi-detalhe{
+  font-size: 0.575rem;
+  line-height: 1rem;
+}
+
+.growth-span{
+  font-style: italic;
+  color: #18983C;
+}
+
+
+#metricaOperacional span{
+  font-style: italic;
+  font-size: 0.895rem;
+}
+  .metrica-item strong{
+    font-size: 1.775rem;
+    width: 100%;
+    float: left;
+    line-height: 1.675rem;
+  }
+
+.login{
+
+}
+
+.login-entrar .btn{
+  width: 100%;
+  box-shadow: none;
+}
+
+/*MATERIAL*/
+.tabs {
+  width: calc(100% - 2rem);
+}
+.tabs .tab{
+  /*background: #333333;*/
+}
+
+.tabs .tab a{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e374c;
+  border-radius: 0;
+  padding: 0 8px;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background-color: rgb(250,250,250,1);
+}
+
+.tabs .tab a:hover{
+  color: #ffbe00;
+  background: #ccc;
+}
+
+.tabs .tab a.active{
+  color: #333333;
+  background: #fafafa;
+}
+
+.tabs .indicator{
+  background-color: #fafafa;
+  height: 4px;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #475765;
+  -webkit-box-shadow: 0 1px 0 0 #475765;
+          box-shadow: 0 1px 0 0 #475765;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #475765;
+}
+.dropdown-content{
+  left: 64px !important;
+}
+.dropdown-content li{
+  border-radius: 4px;
+}
+.dropdown-content li > a{
+  padding: 8px;
+}
+
+.btn{
+  box-shadow: none;
+  background-color: #03a9f4;
+}
+.btn:hover{
+  box-shadow: none;
+  background-color: #3f51b5;
+}
+
+.carousel.carousel-slider .carousel-item h2{
+
+}
+.carousel.carousel-slider .carousel-item p{
+  position: absolute;
+  top: 128px;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(255,255,255,0.85);
+  color: #000000;
+  padding: 1rem;
+
+}
+.carousel.carousel-slider .carousel-item img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.carousel.carousel-slider .carousel-item .btn-large{
+  margin-top: 256px;
+  width: 256px;
+  font-size: 1.675rem;
+  line-height: 96px;
+  font-weight: bold;
+}
+
+.margin-zero{
+  margin: 0;
+}
+
+.input-field > label{
+  color: #475765;
+}
+
+#login img{
+  padding: 2rem;
+}
+
+.login .row{
+  margin-bottom: 0;
+}
+
+.range-field{
+  text-align: center;
+  margin: 0;
+}
+
+.news-box img{
+  float: left;
+  padding: 8px;
+}
+
+.cap-list a{
+  font-weight: bold;
+  color: #333333;
+  font-size: 1.275rem;
+}
+.cap-list a:hover{
+  color: #1565c0;
+}
+
+.page-single img{
+  max-width: 100%;
+}
+
+.page-double img{
+  width: 100%;
+}
+
+
+
+
+/*MATERIAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
