@@ -779,6 +779,10 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .manga-link a{
   color: #000000;
 }
+.manga-link img{
+  float: left;
+  padding: 0 1rem 0 0;
+}
 
 
 /*MATERIAL*/

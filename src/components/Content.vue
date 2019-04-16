@@ -1,6 +1,6 @@
 <template>
   <div id="content" class="col m9 l10 white">
-      <router-view/>
+      <router-view></router-view>
   </div>
 </template>
 
