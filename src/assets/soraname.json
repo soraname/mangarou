@@ -1,0 +1,46 @@
+pageautor: {
+  Nome: "Soraname", 
+  Bio: '/soraname', 
+  Logo: '/assets/media/logos/soraname.png',  
+  Color: 'purple accent-3',
+  links: [
+    {
+      Item: 'LINKSoraname', 
+      Elo: '/soraname', 
+      Text: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ', 
+      Img: '/autores/soraname/link01.png'
+    },
+    {
+      Item: 'LINKYoutube canal', 
+      Elo: 'https://www.facebook.com', 
+      Text: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ', 
+      Img: '/autores/soraname/link01.png'
+    },
+    {
+      Item: 'LINKSoraname', 
+      Elo: '/soraname', 
+      Text: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ', 
+      Img: '/autores/soraname/link01.png'
+    }
+  ],
+  mangas: [
+    {
+      Titulo: 'MANGASoraname', 
+      Elo: '/soraname', 
+      Sinopse: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
+      Img: '/assets/media/logos/soraname.png'
+    },
+    {
+      Titulo: 'MANGAYoutube canal', 
+      Elo: 'https://www.facebook.com', 
+      Sinopse: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
+      Img: '/assets/media/logos/soraname.png'
+    },
+    {
+      Titulo: 'MANGASoraname', 
+      Elo: '/soraname', 
+      Sinopse: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
+      Img: '/assets/media/logos/soraname.png'
+    }
+  ]
+}

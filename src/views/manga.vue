@@ -1,16 +1,14 @@
 <template>
-  <div class="soraname content-box">
-  	<Autor v-bind="soraname"></Autor>
+  <div class="manga content-box">
+  	TESTESTESTESTES
   </div>
 </template>
 
 <script>
-import Autor from '@/components/Autores/Autor.vue';
 
 export default {
-  name: 'soraname',
+  name: 'manga',
   components: {
-  	Autor
   }
 }
 </script>

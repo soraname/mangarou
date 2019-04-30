@@ -15,6 +15,10 @@ import Menu from './components/Menu.vue'
 import Content from './components/Content.vue'
 import Slider from './components/Slider.vue'
 
+var autor;
+var manga;
+var capitulo;
+
 export default {
   data(){
     return {

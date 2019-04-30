@@ -1,9 +1,8 @@
 <template>
-<div id="Soraname">
+<div id="Autor">
   <div class="row">
       <div class="col s12 autor-header">
-        <img :src="pageautor.Logo" width="128"> <h1>{{pageautor.Nome}} AAA</h1>
-        <h3 @click="goToManga(teste)" >CLICAR</h3>
+        <img :src="pageautor.Logo" width="128"> <h1>{{pageautor.Nome}}</h1>
       </div>
     </div>
   <div class="row">
@@ -26,10 +25,10 @@
 
   <div v-for="manga in pageautor.mangas" class="row">
     <div class="col s12 manga-link">
-      <a :href="manga.Elo">
+      <router-link :to="manga.Elo">
         <h2>{{manga.Titulo}}</h2>      
         <p><img :src="manga.Img" width="128">{{manga.Sinopse}}</p>
-      </a>
+      </router-link>
     </div>
   </div>
 
@@ -39,13 +38,59 @@
 <script>
 
 export default {
-      name: 'soraname',
+      name: 'autor',
       components: {
       },
       data() {
         return {
             pageautor: {
-              Nome: "Soraname", 
+              Nome: "Soraname3333", 
+              Bio: '/soraname', 
+              Logo: '/assets/media/logos/soraname.png',  
+              Color: 'purple accent-3',
+              links: [
+                {
+                  Item: 'LINKSoraname', 
+                  Elo: '/soraname', 
+                  Text: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ', 
+                  Img: '/autores/soraname/link01.png'
+                },
+                {
+                  Item: 'LINKYoutube canal', 
+                  Elo: 'https://www.facebook.com', 
+                  Text: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ', 
+                  Img: '/autores/soraname/link01.png'
+                },
+                {
+                  Item: 'LINKSoraname', 
+                  Elo: '/soraname', 
+                  Text: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ', 
+                  Img: '/autores/soraname/link01.png'
+                }
+              ],
+              mangas: [
+                {
+                  Titulo: 'MANGASoraname', 
+                  Elo: '/soraname', 
+                  Sinopse: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
+                  Img: '/assets/media/logos/soraname.png'
+                },
+                {
+                  Titulo: 'MANGAYoutube canal', 
+                  Elo: 'https://www.facebook.com', 
+                  Sinopse: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
+                  Img: '/assets/media/logos/soraname.png'
+                },
+                {
+                  Titulo: 'MANGASoraname', 
+                  Elo: '/soraname', 
+                  Sinopse: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
+                  Img: '/assets/media/logos/soraname.png'
+                }
+              ]
+            },
+            soraname: {
+              Nome: "SoranamDDDe", 
               Bio: '/soraname', 
               Logo: '/assets/media/logos/soraname.png',  
               Color: 'purple accent-3',
@@ -99,10 +144,10 @@ export default {
         },
         changeSide(side) {
           this.side = side;
-        },
-        goToManga(mangaid) {
-          this.$router.push({name:'manga',params:{Mid:mangaid}})
         }
+      },
+      props:{
+        autor: String
       }
     };
 

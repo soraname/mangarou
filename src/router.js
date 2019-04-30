@@ -19,7 +19,17 @@ export default new Router({
       name: 'soraname',
       component: function () { 
         return import('./views/soraname.vue')
-      }
+      },
+      children: [
+        {
+          path: '/soraname/manga/:Mid',
+          name: "Manga",
+          component: function () { 
+            return import('./views/manga.vue')
+          },
+          props: true
+        },
+      ]
     },
     {
       path: '/temero',
